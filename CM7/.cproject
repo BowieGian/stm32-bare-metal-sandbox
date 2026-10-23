@@ -167,7 +167,6 @@
 		<project id="stm32-bare-metal-sandbox_CM7.null.617150540" name="stm32-bare-metal-sandbox_CM7"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1068007424;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1068007424.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1880946838;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1274709518">
@@ -176,5 +175,18 @@
 		<scannerConfigBuildInfo instanceId="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.200873532;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.200873532.;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1535672972;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2089716294">
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="compile_commands" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>compiledb</buildCommand>
+				<buildArguments>-o ../compile_commands.json make all</buildArguments>
+				<buildTarget/>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+		</buildTargets>
 	</storageModule>
 </cproject>
